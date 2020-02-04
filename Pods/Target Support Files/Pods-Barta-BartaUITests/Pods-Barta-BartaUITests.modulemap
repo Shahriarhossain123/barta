@@ -1,0 +1,6 @@
+framework module Pods_Barta_BartaUITests {
+  umbrella header "Pods-Barta-BartaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

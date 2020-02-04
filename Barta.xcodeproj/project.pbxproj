@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1728E270DA8084480D305C47 /* Pods_Barta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8BD1F197E028A55100BE18 /* Pods_Barta.framework */; };
+		184130F323E9772200DC3A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184130F223E9772200DC3A34 /* AppDelegate.swift */; };
+		184130F523E9772200DC3A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184130F423E9772200DC3A34 /* SceneDelegate.swift */; };
+		184130F723E9772200DC3A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184130F623E9772200DC3A34 /* ViewController.swift */; };
+		184130FA23E9772200DC3A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184130F823E9772200DC3A34 /* Main.storyboard */; };
+		184130FC23E9772200DC3A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184130FB23E9772200DC3A34 /* Assets.xcassets */; };
+		184130FF23E9772200DC3A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184130FD23E9772200DC3A34 /* LaunchScreen.storyboard */; };
+		1841310A23E9772300DC3A34 /* BartaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841310923E9772300DC3A34 /* BartaTests.swift */; };
+		1841311523E9772300DC3A34 /* BartaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841311423E9772300DC3A34 /* BartaUITests.swift */; };
+		1841312323E97FB300DC3A34 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841312223E97FB300DC3A34 /* SearchVC.swift */; };
+		9BC4B3B1520C8E9C00ED7A29 /* Pods_BartaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741E4FADAE186A02A0803792 /* Pods_BartaTests.framework */; };
+		E24F03826895E842AA332BE2 /* Pods_Barta_BartaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1841310623E9772300DC3A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184130E723E9772200DC3A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184130EE23E9772200DC3A34;
+			remoteInfo = Barta;
+		};
+		1841311123E9772300DC3A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184130E723E9772200DC3A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184130EE23E9772200DC3A34;
+			remoteInfo = Barta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007CAA10E0947118870C8A4C /* Pods-BartaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartaTests.release.xcconfig"; path = "Target Support Files/Pods-BartaTests/Pods-BartaTests.release.xcconfig"; sourceTree = "<group>"; };
+		184130EF23E9772200DC3A34 /* Barta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184130F223E9772200DC3A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184130F423E9772200DC3A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184130F623E9772200DC3A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184130F923E9772200DC3A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184130FB23E9772200DC3A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184130FE23E9772200DC3A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1841310023E9772200DC3A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1841310523E9772300DC3A34 /* BartaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BartaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1841310923E9772300DC3A34 /* BartaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartaTests.swift; sourceTree = "<group>"; };
+		1841310B23E9772300DC3A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1841311023E9772300DC3A34 /* BartaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BartaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1841311423E9772300DC3A34 /* BartaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartaUITests.swift; sourceTree = "<group>"; };
+		1841311623E9772300DC3A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1841312223E97FB300DC3A34 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barta_BartaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABA04C80079E54EC3480B46 /* Pods-Barta-BartaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta-BartaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE8DB61B2217183831F5F27 /* Pods-Barta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta.debug.xcconfig"; path = "Target Support Files/Pods-Barta/Pods-Barta.debug.xcconfig"; sourceTree = "<group>"; };
+		741E4FADAE186A02A0803792 /* Pods_BartaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA4E53F738D7D8D67131593 /* Pods-Barta-BartaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta-BartaUITests.release.xcconfig"; path = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0B9012FD1445CC74B5FF503 /* Pods-Barta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta.release.xcconfig"; path = "Target Support Files/Pods-Barta/Pods-Barta.release.xcconfig"; sourceTree = "<group>"; };
+		FC8BD1F197E028A55100BE18 /* Pods_Barta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF65BE5840AA7E881FCF9608 /* Pods-BartaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartaTests.debug.xcconfig"; path = "Target Support Files/Pods-BartaTests/Pods-BartaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184130EC23E9772200DC3A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1728E270DA8084480D305C47 /* Pods_Barta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841310223E9772300DC3A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4B3B1520C8E9C00ED7A29 /* Pods_BartaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841310D23E9772300DC3A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24F03826895E842AA332BE2 /* Pods_Barta_BartaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184130E623E9772200DC3A34 = {
+			isa = PBXGroup;
+			children = (
+				184130F123E9772200DC3A34 /* Barta */,
+				1841310823E9772300DC3A34 /* BartaTests */,
+				1841311323E9772300DC3A34 /* BartaUITests */,
+				184130F023E9772200DC3A34 /* Products */,
+				E95F3E96871CA8EFE16A5655 /* Pods */,
+				CC05C6A55FCF5BA8CCBF61BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184130F023E9772200DC3A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184130EF23E9772200DC3A34 /* Barta.app */,
+				1841310523E9772300DC3A34 /* BartaTests.xctest */,
+				1841311023E9772300DC3A34 /* BartaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184130F123E9772200DC3A34 /* Barta */ = {
+			isa = PBXGroup;
+			children = (
+				184130F223E9772200DC3A34 /* AppDelegate.swift */,
+				184130F423E9772200DC3A34 /* SceneDelegate.swift */,
+				184130F623E9772200DC3A34 /* ViewController.swift */,
+				184130F823E9772200DC3A34 /* Main.storyboard */,
+				184130FB23E9772200DC3A34 /* Assets.xcassets */,
+				184130FD23E9772200DC3A34 /* LaunchScreen.storyboard */,
+				1841310023E9772200DC3A34 /* Info.plist */,
+				1841312223E97FB300DC3A34 /* SearchVC.swift */,
+			);
+			path = Barta;
+			sourceTree = "<group>";
+		};
+		1841310823E9772300DC3A34 /* BartaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1841310923E9772300DC3A34 /* BartaTests.swift */,
+				1841310B23E9772300DC3A34 /* Info.plist */,
+			);
+			path = BartaTests;
+			sourceTree = "<group>";
+		};
+		1841311323E9772300DC3A34 /* BartaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1841311423E9772300DC3A34 /* BartaUITests.swift */,
+				1841311623E9772300DC3A34 /* Info.plist */,
+			);
+			path = BartaUITests;
+			sourceTree = "<group>";
+		};
+		CC05C6A55FCF5BA8CCBF61BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC8BD1F197E028A55100BE18 /* Pods_Barta.framework */,
+				2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */,
+				741E4FADAE186A02A0803792 /* Pods_BartaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E95F3E96871CA8EFE16A5655 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8DB61B2217183831F5F27 /* Pods-Barta.debug.xcconfig */,
+				E0B9012FD1445CC74B5FF503 /* Pods-Barta.release.xcconfig */,
+				5ABA04C80079E54EC3480B46 /* Pods-Barta-BartaUITests.debug.xcconfig */,
+				7DA4E53F738D7D8D67131593 /* Pods-Barta-BartaUITests.release.xcconfig */,
+				FF65BE5840AA7E881FCF9608 /* Pods-BartaTests.debug.xcconfig */,
+				007CAA10E0947118870C8A4C /* Pods-BartaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184130EE23E9772200DC3A34 /* Barta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1841311923E9772300DC3A34 /* Build configuration list for PBXNativeTarget "Barta" */;
+			buildPhases = (
+				D1FAC126696B0C26AEC789CB /* [CP] Check Pods Manifest.lock */,
+				184130EB23E9772200DC3A34 /* Sources */,
+				184130EC23E9772200DC3A34 /* Frameworks */,
+				184130ED23E9772200DC3A34 /* Resources */,
+				CB58CBE2350A0BE9F4425EC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barta;
+			productName = Barta;
+			productReference = 184130EF23E9772200DC3A34 /* Barta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1841310423E9772300DC3A34 /* BartaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1841311C23E9772300DC3A34 /* Build configuration list for PBXNativeTarget "BartaTests" */;
+			buildPhases = (
+				99EB92B43E6855A3CAE0A103 /* [CP] Check Pods Manifest.lock */,
+				1841310123E9772300DC3A34 /* Sources */,
+				1841310223E9772300DC3A34 /* Frameworks */,
+				1841310323E9772300DC3A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1841310723E9772300DC3A34 /* PBXTargetDependency */,
+			);
+			name = BartaTests;
+			productName = BartaTests;
+			productReference = 1841310523E9772300DC3A34 /* BartaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1841310F23E9772300DC3A34 /* BartaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1841311F23E9772300DC3A34 /* Build configuration list for PBXNativeTarget "BartaUITests" */;
+			buildPhases = (
+				6DA1A62B41A41DDBB721C03E /* [CP] Check Pods Manifest.lock */,
+				1841310C23E9772300DC3A34 /* Sources */,
+				1841310D23E9772300DC3A34 /* Frameworks */,
+				1841310E23E9772300DC3A34 /* Resources */,
+				47ACDCABBA4AC59839CF7597 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1841311223E9772300DC3A34 /* PBXTargetDependency */,
+			);
+			name = BartaUITests;
+			productName = BartaUITests;
+			productReference = 1841311023E9772300DC3A34 /* BartaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184130E723E9772200DC3A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple MacBook Pro ";
+				TargetAttributes = {
+					184130EE23E9772200DC3A34 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1841310423E9772300DC3A34 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184130EE23E9772200DC3A34;
+					};
+					1841310F23E9772300DC3A34 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184130EE23E9772200DC3A34;
+					};
+				};
+			};
+			buildConfigurationList = 184130EA23E9772200DC3A34 /* Build configuration list for PBXProject "Barta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184130E623E9772200DC3A34;
+			productRefGroup = 184130F023E9772200DC3A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184130EE23E9772200DC3A34 /* Barta */,
+				1841310423E9772300DC3A34 /* BartaTests */,
+				1841310F23E9772300DC3A34 /* BartaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184130ED23E9772200DC3A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184130FF23E9772200DC3A34 /* LaunchScreen.storyboard in Resources */,
+				184130FC23E9772200DC3A34 /* Assets.xcassets in Resources */,
+				184130FA23E9772200DC3A34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841310323E9772300DC3A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841310E23E9772300DC3A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47ACDCABBA4AC59839CF7597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA1A62B41A41DDBB721C03E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barta-BartaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EB92B43E6855A3CAE0A103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BartaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB58CBE2350A0BE9F4425EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barta/Pods-Barta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barta/Pods-Barta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barta/Pods-Barta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1FAC126696B0C26AEC789CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184130EB23E9772200DC3A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841312323E97FB300DC3A34 /* SearchVC.swift in Sources */,
+				184130F723E9772200DC3A34 /* ViewController.swift in Sources */,
+				184130F323E9772200DC3A34 /* AppDelegate.swift in Sources */,
+				184130F523E9772200DC3A34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841310123E9772300DC3A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841310A23E9772300DC3A34 /* BartaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1841310C23E9772300DC3A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841311523E9772300DC3A34 /* BartaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1841310723E9772300DC3A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184130EE23E9772200DC3A34 /* Barta */;
+			targetProxy = 1841310623E9772300DC3A34 /* PBXContainerItemProxy */;
+		};
+		1841311223E9772300DC3A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184130EE23E9772200DC3A34 /* Barta */;
+			targetProxy = 1841311123E9772300DC3A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184130F823E9772200DC3A34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184130F923E9772200DC3A34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184130FD23E9772200DC3A34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184130FE23E9772200DC3A34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1841311723E9772300DC3A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1841311823E9772300DC3A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1841311A23E9772300DC3A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE8DB61B2217183831F5F27 /* Pods-Barta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Barta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = listView.Barta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1841311B23E9772300DC3A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B9012FD1445CC74B5FF503 /* Pods-Barta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Barta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = listView.Barta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1841311D23E9772300DC3A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF65BE5840AA7E881FCF9608 /* Pods-BartaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BartaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = listView.BartaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barta.app/Barta";
+			};
+			name = Debug;
+		};
+		1841311E23E9772300DC3A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007CAA10E0947118870C8A4C /* Pods-BartaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BartaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = listView.BartaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barta.app/Barta";
+			};
+			name = Release;
+		};
+		1841312023E9772300DC3A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABA04C80079E54EC3480B46 /* Pods-Barta-BartaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BartaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = listView.BartaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barta;
+			};
+			name = Debug;
+		};
+		1841312123E9772300DC3A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA4E53F738D7D8D67131593 /* Pods-Barta-BartaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BartaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = listView.BartaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184130EA23E9772200DC3A34 /* Build configuration list for PBXProject "Barta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841311723E9772300DC3A34 /* Debug */,
+				1841311823E9772300DC3A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1841311923E9772300DC3A34 /* Build configuration list for PBXNativeTarget "Barta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841311A23E9772300DC3A34 /* Debug */,
+				1841311B23E9772300DC3A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1841311C23E9772300DC3A34 /* Build configuration list for PBXNativeTarget "BartaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841311D23E9772300DC3A34 /* Debug */,
+				1841311E23E9772300DC3A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1841311F23E9772300DC3A34 /* Build configuration list for PBXNativeTarget "BartaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841312023E9772300DC3A34 /* Debug */,
+				1841312123E9772300DC3A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184130E723E9772200DC3A34 /* Project object */;
+}

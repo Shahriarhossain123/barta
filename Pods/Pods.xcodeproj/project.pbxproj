@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08316C488BBBE3C9CACD552A867306B3 /* CarbonTabSwipeScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D8F8634F8AF99302E68966B070F63C /* CarbonTabSwipeScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAEEE457525BF058E1D6DD21A7B7BE0 /* CarbonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBCC31341E2B833452B6A6284A42771 /* CarbonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B322C0E39488E078BC71DDA883D512B /* Pods-BartaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFBDAB06C37DCD14E5477B61741FEB /* Pods-BartaTests-dummy.m */; };
+		24F94BD9FF9301B56E2BF9675F0FA3BA /* CarbonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0315827A4FBDDC60746B0580622EA5E /* CarbonKit-dummy.m */; };
+		35169F60CABEE4A2D52DF8344F36DFCA /* Pods-Barta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F207E7E38B5E75EDFDC756EE65B0A9A4 /* Pods-Barta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BADD89280FA5C9F2BC1BE3E680CA2AD /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD56B5B61C3773DF56F37B1E35FC718 /* CarbonSwipeRefresh.m */; };
+		448F1A7E50D96DEDE8C6C1476B34E253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		48D582BC61A1251DFD27BA765829FBDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		51A0998B006EC835DBBF7E93AF2A3201 /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B50ECA4A54F2AACF1C687A565F0A65 /* CarbonTabSwipeScrollView.m */; };
+		58028E39720CD948B3E1AFC7C16D38F5 /* CarbonSwipeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF8EED9B22BDF15C734844F7D2F3FCA /* CarbonSwipeRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631C658AEAD9CFC5080F97962689FF76 /* Pods-BartaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F4AFB6055458304A245DC3B46165DD /* Pods-BartaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76CAD809C4E705C685B8DA56E2A119FE /* Pods-Barta-BartaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E72B0A596BDAE0C461169C6ECEEE8E /* Pods-Barta-BartaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEF4A5278DDE7601D9EB85266B62C55 /* CarbonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 099964774E6A80CA9B5CC4A2D78D20D7 /* CarbonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D7ABC4BCE4F8A9C6598D4F04A8FA31 /* Pods-Barta-BartaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 775537A154CFA7450581B22235FEFD92 /* Pods-Barta-BartaUITests-dummy.m */; };
+		9083354EB1CFD7239A6F025FDC350F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		AA0A83F5C89513CECD00D44AC38E2640 /* Pods-Barta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F669C34CB7DB97D42F3203E590436B /* Pods-Barta-dummy.m */; };
+		B9AE80EAA4D2189E673332125190328F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		BD8E90645FDE43FD41342AC9322FB151 /* CarbonTabSwipeNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8824942ADBF52AFF62DD361581611DE5 /* CarbonTabSwipeNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9717432E8D1402242F358DD197A2627 /* CarbonTabSwipeSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D809AD58CE8775E1693A4AB17EE0F4 /* CarbonTabSwipeSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69D5596F58F7CE052C09272F51AF3CD /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D1273C0A3E13C54D1C96191406BAD /* CarbonTabSwipeNavigation.m */; };
+		E73672A78A2A1DC2B3DC37F8A021FDE7 /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B5DFFE2B6CD1F7655E36022D25EB3 /* CarbonTabSwipeSegmentedControl.m */; };
+		EC9AFBB441021B7C649FEB6732F3DB0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F959B840998D05631730616E4330E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F5DB4FAACF4C14F4BC0EF30019B8E16;
+			remoteInfo = "Pods-Barta";
+		};
+		8CFA39EA95C7B3C5F7EED8DBBFF46F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9228424A074D42F13FABA26E972B57;
+			remoteInfo = CarbonKit;
+		};
+		AECFE24AAB32BB05640302C0874FBBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9228424A074D42F13FABA26E972B57;
+			remoteInfo = CarbonKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019D1273C0A3E13C54D1C96191406BAD /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeNavigation.m; path = CarbonKit/CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		02AEDB18A6C9CFF731C9FF65E424811D /* Pods-Barta-BartaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barta-BartaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04D8F8634F8AF99302E68966B070F63C /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeScrollView.h; path = CarbonKit/CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		05E72B0A596BDAE0C461169C6ECEEE8E /* Pods-Barta-BartaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Barta-BartaUITests-umbrella.h"; sourceTree = "<group>"; };
+		07C1F462A2AFEEC80AD124BF68EED28B /* Pods-Barta-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Barta-frameworks.sh"; sourceTree = "<group>"; };
+		07E087132E71146A3309FF7E4AC3FFCD /* Pods-Barta-BartaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barta-BartaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		099964774E6A80CA9B5CC4A2D78D20D7 /* CarbonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonKit.h; path = CarbonKit/CarbonKit.h; sourceTree = "<group>"; };
+		0E45FBCCBD414D5DCE99ACFB8D4B63EB /* Pods-Barta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barta.release.xcconfig"; sourceTree = "<group>"; };
+		0EBCC31341E2B833452B6A6284A42771 /* CarbonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-umbrella.h"; sourceTree = "<group>"; };
+		109B32DE6D40FBDD3BE180DEC04F2D6C /* Pods-Barta-BartaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Barta-BartaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		14F4AFB6055458304A245DC3B46165DD /* Pods-BartaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BartaTests-umbrella.h"; sourceTree = "<group>"; };
+		1731CCF33B29295A9E431F66962574E6 /* Pods_BartaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BartaTests.framework; path = "Pods-BartaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2C980BC9AA0BA1456069D18A904317 /* Pods-Barta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barta-acknowledgements.plist"; sourceTree = "<group>"; };
+		222515276ACE324C564E5AB06A6EE01B /* Pods_Barta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Barta.framework; path = "Pods-Barta.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D8B5DFFE2B6CD1F7655E36022D25EB3 /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeSegmentedControl.m; path = CarbonKit/CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49670C8CE36272BA7766E05A53E385BF /* Pods-Barta-BartaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barta-BartaUITests-Info.plist"; sourceTree = "<group>"; };
+		499394CF3675B828356552080AFE3F79 /* Pods-BartaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BartaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		526C2BDB4C0F97C4BEE6B6FEC1644EE2 /* Pods-Barta-BartaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Barta-BartaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F50CFCC388EDE9B1801E68F66808B81 /* Pods-BartaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BartaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A151BA4BE8C4204DF1A7D84555B9551 /* Pods_Barta_BartaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Barta_BartaUITests.framework; path = "Pods-Barta-BartaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB04EF298E418A4C39CEFAF9A846A89 /* Pods-BartaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BartaTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FD56B5B61C3773DF56F37B1E35FC718 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonSwipeRefresh.m; path = CarbonKit/CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		7507FF2A31069EBD97E584BA0C45CF5A /* CarbonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarbonKit.modulemap; sourceTree = "<group>"; };
+		775537A154CFA7450581B22235FEFD92 /* Pods-Barta-BartaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Barta-BartaUITests-dummy.m"; sourceTree = "<group>"; };
+		78BB3AAEBF16FEEA7109B422AE2657FA /* Pods-BartaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BartaTests.modulemap"; sourceTree = "<group>"; };
+		7C143F03E1DED730C52590C71A6E06F9 /* Pods-BartaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BartaTests-Info.plist"; sourceTree = "<group>"; };
+		7E7C1EA48ABCC546ADC507728024859C /* Pods-Barta-BartaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Barta-BartaUITests.modulemap"; sourceTree = "<group>"; };
+		857D0B90490FD8083F79B97597566B28 /* CarbonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarbonKit.framework; path = CarbonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85951284E05B81C3B79E4F0D907571FB /* CarbonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CarbonKit-Info.plist"; sourceTree = "<group>"; };
+		8824942ADBF52AFF62DD361581611DE5 /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeNavigation.h; path = CarbonKit/CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		8AAFBDAB06C37DCD14E5477B61741FEB /* Pods-BartaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BartaTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEB1E5F486B6DB4F42251F9FC6134CEE /* Pods-Barta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barta-Info.plist"; sourceTree = "<group>"; };
+		B13F8B682638504257F4BB9A4D21161B /* CarbonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarbonKit.xcconfig; sourceTree = "<group>"; };
+		B78E893B833019CDA22F89C7FC1A15E9 /* Pods-Barta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Barta.modulemap"; sourceTree = "<group>"; };
+		BBAC3F12535D57930F7E7E1F6C0D287D /* Pods-Barta-BartaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barta-BartaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEF8EED9B22BDF15C734844F7D2F3FCA /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonSwipeRefresh.h; path = CarbonKit/CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		D1F669C34CB7DB97D42F3203E590436B /* Pods-Barta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Barta-dummy.m"; sourceTree = "<group>"; };
+		D2D809AD58CE8775E1693A4AB17EE0F4 /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeSegmentedControl.h; path = CarbonKit/CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		DC6E977DB28872336F81878595E3EA41 /* CarbonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-prefix.pch"; sourceTree = "<group>"; };
+		E4B50ECA4A54F2AACF1C687A565F0A65 /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeScrollView.m; path = CarbonKit/CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		F0315827A4FBDDC60746B0580622EA5E /* CarbonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarbonKit-dummy.m"; sourceTree = "<group>"; };
+		F1ACFBC3719F1416A12F00A6A03E80BC /* Pods-Barta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barta.debug.xcconfig"; sourceTree = "<group>"; };
+		F207E7E38B5E75EDFDC756EE65B0A9A4 /* Pods-Barta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Barta-umbrella.h"; sourceTree = "<group>"; };
+		F416579E8BEB3354BE9CA761EE7A6182 /* Pods-BartaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BartaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5887699F800DDC36FDC4688E13ED4F3 /* Pods-Barta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Barta-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EACA69D7572C1654F4F995F1DF1F39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9083354EB1CFD7239A6F025FDC350F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242750D70A3790E72FE39E3F587F1932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448F1A7E50D96DEDE8C6C1476B34E253 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E9F682E6A4C0E050104CC9A9A4FB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE80EAA4D2189E673332125190328F /* Foundation.framework in Frameworks */,
+				48D582BC61A1251DFD27BA765829FBDC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B47EB7413E0E2D99EE1ECF5D6B95B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9AFBB441021B7C649FEB6732F3DB0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E70B1CBBFA318FA8D93220D04C6DD4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09EDFBF81D988E4A3E69D43435AB541 /* Pods-Barta */,
+				8E73C668FC59048D5E8CEC0AEA3E1B9E /* Pods-Barta-BartaUITests */,
+				E4F5B56E8A7F04A11B44996BCC1EC4AC /* Pods-BartaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		583CD1E498301F72C2C1BCD74E525548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC41E7B82AD5F80AA6C5E9D0B8AF3EA /* CarbonKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E73C668FC59048D5E8CEC0AEA3E1B9E /* Pods-Barta-BartaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7C1EA48ABCC546ADC507728024859C /* Pods-Barta-BartaUITests.modulemap */,
+				526C2BDB4C0F97C4BEE6B6FEC1644EE2 /* Pods-Barta-BartaUITests-acknowledgements.markdown */,
+				07E087132E71146A3309FF7E4AC3FFCD /* Pods-Barta-BartaUITests-acknowledgements.plist */,
+				775537A154CFA7450581B22235FEFD92 /* Pods-Barta-BartaUITests-dummy.m */,
+				109B32DE6D40FBDD3BE180DEC04F2D6C /* Pods-Barta-BartaUITests-frameworks.sh */,
+				49670C8CE36272BA7766E05A53E385BF /* Pods-Barta-BartaUITests-Info.plist */,
+				05E72B0A596BDAE0C461169C6ECEEE8E /* Pods-Barta-BartaUITests-umbrella.h */,
+				BBAC3F12535D57930F7E7E1F6C0D287D /* Pods-Barta-BartaUITests.debug.xcconfig */,
+				02AEDB18A6C9CFF731C9FF65E424811D /* Pods-Barta-BartaUITests.release.xcconfig */,
+			);
+			name = "Pods-Barta-BartaUITests";
+			path = "Target Support Files/Pods-Barta-BartaUITests";
+			sourceTree = "<group>";
+		};
+		A660B0A74893D80AC3665B724CF5D601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857D0B90490FD8083F79B97597566B28 /* CarbonKit.framework */,
+				222515276ACE324C564E5AB06A6EE01B /* Pods_Barta.framework */,
+				6A151BA4BE8C4204DF1A7D84555B9551 /* Pods_Barta_BartaUITests.framework */,
+				1731CCF33B29295A9E431F66962574E6 /* Pods_BartaTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09EDFBF81D988E4A3E69D43435AB541 /* Pods-Barta */ = {
+			isa = PBXGroup;
+			children = (
+				B78E893B833019CDA22F89C7FC1A15E9 /* Pods-Barta.modulemap */,
+				F5887699F800DDC36FDC4688E13ED4F3 /* Pods-Barta-acknowledgements.markdown */,
+				1E2C980BC9AA0BA1456069D18A904317 /* Pods-Barta-acknowledgements.plist */,
+				D1F669C34CB7DB97D42F3203E590436B /* Pods-Barta-dummy.m */,
+				07C1F462A2AFEEC80AD124BF68EED28B /* Pods-Barta-frameworks.sh */,
+				AEB1E5F486B6DB4F42251F9FC6134CEE /* Pods-Barta-Info.plist */,
+				F207E7E38B5E75EDFDC756EE65B0A9A4 /* Pods-Barta-umbrella.h */,
+				F1ACFBC3719F1416A12F00A6A03E80BC /* Pods-Barta.debug.xcconfig */,
+				0E45FBCCBD414D5DCE99ACFB8D4B63EB /* Pods-Barta.release.xcconfig */,
+			);
+			name = "Pods-Barta";
+			path = "Target Support Files/Pods-Barta";
+			sourceTree = "<group>";
+		};
+		C19814D49271379B4E7E113ECE9DC4BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7507FF2A31069EBD97E584BA0C45CF5A /* CarbonKit.modulemap */,
+				B13F8B682638504257F4BB9A4D21161B /* CarbonKit.xcconfig */,
+				F0315827A4FBDDC60746B0580622EA5E /* CarbonKit-dummy.m */,
+				85951284E05B81C3B79E4F0D907571FB /* CarbonKit-Info.plist */,
+				DC6E977DB28872336F81878595E3EA41 /* CarbonKit-prefix.pch */,
+				0EBCC31341E2B833452B6A6284A42771 /* CarbonKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CarbonKit";
+			sourceTree = "<group>";
+		};
+		CCC41E7B82AD5F80AA6C5E9D0B8AF3EA /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				099964774E6A80CA9B5CC4A2D78D20D7 /* CarbonKit.h */,
+				CEF8EED9B22BDF15C734844F7D2F3FCA /* CarbonSwipeRefresh.h */,
+				6FD56B5B61C3773DF56F37B1E35FC718 /* CarbonSwipeRefresh.m */,
+				8824942ADBF52AFF62DD361581611DE5 /* CarbonTabSwipeNavigation.h */,
+				019D1273C0A3E13C54D1C96191406BAD /* CarbonTabSwipeNavigation.m */,
+				04D8F8634F8AF99302E68966B070F63C /* CarbonTabSwipeScrollView.h */,
+				E4B50ECA4A54F2AACF1C687A565F0A65 /* CarbonTabSwipeScrollView.m */,
+				D2D809AD58CE8775E1693A4AB17EE0F4 /* CarbonTabSwipeSegmentedControl.h */,
+				3D8B5DFFE2B6CD1F7655E36022D25EB3 /* CarbonTabSwipeSegmentedControl.m */,
+				C19814D49271379B4E7E113ECE9DC4BE /* Support Files */,
+			);
+			name = CarbonKit;
+			path = CarbonKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				583CD1E498301F72C2C1BCD74E525548 /* Pods */,
+				A660B0A74893D80AC3665B724CF5D601 /* Products */,
+				4E70B1CBBFA318FA8D93220D04C6DD4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4F5B56E8A7F04A11B44996BCC1EC4AC /* Pods-BartaTests */ = {
+			isa = PBXGroup;
+			children = (
+				78BB3AAEBF16FEEA7109B422AE2657FA /* Pods-BartaTests.modulemap */,
+				F416579E8BEB3354BE9CA761EE7A6182 /* Pods-BartaTests-acknowledgements.markdown */,
+				5F50CFCC388EDE9B1801E68F66808B81 /* Pods-BartaTests-acknowledgements.plist */,
+				8AAFBDAB06C37DCD14E5477B61741FEB /* Pods-BartaTests-dummy.m */,
+				7C143F03E1DED730C52590C71A6E06F9 /* Pods-BartaTests-Info.plist */,
+				14F4AFB6055458304A245DC3B46165DD /* Pods-BartaTests-umbrella.h */,
+				499394CF3675B828356552080AFE3F79 /* Pods-BartaTests.debug.xcconfig */,
+				6BB04EF298E418A4C39CEFAF9A846A89 /* Pods-BartaTests.release.xcconfig */,
+			);
+			name = "Pods-BartaTests";
+			path = "Target Support Files/Pods-BartaTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79EE041FCAF330C631E5B673FA3096DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35169F60CABEE4A2D52DF8344F36DFCA /* Pods-Barta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C433E4C0BCD2DE7DBE1E5AAF18F96D6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631C658AEAD9CFC5080F97962689FF76 /* Pods-BartaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5227A3124B2BD52AC783A1C442AD513 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CAD809C4E705C685B8DA56E2A119FE /* Pods-Barta-BartaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4EEC66B4EF266DD7F7BA0D78D47BB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAEEE457525BF058E1D6DD21A7B7BE0 /* CarbonKit-umbrella.h in Headers */,
+				7CEF4A5278DDE7601D9EB85266B62C55 /* CarbonKit.h in Headers */,
+				58028E39720CD948B3E1AFC7C16D38F5 /* CarbonSwipeRefresh.h in Headers */,
+				BD8E90645FDE43FD41342AC9322FB151 /* CarbonTabSwipeNavigation.h in Headers */,
+				08316C488BBBE3C9CACD552A867306B3 /* CarbonTabSwipeScrollView.h in Headers */,
+				D9717432E8D1402242F358DD197A2627 /* CarbonTabSwipeSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		105F2C1C80A9D93EAFD87FAEAF1852AB /* Pods-Barta-BartaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E01925509EA1DAD2107B8C867374E0 /* Build configuration list for PBXNativeTarget "Pods-Barta-BartaUITests" */;
+			buildPhases = (
+				C5227A3124B2BD52AC783A1C442AD513 /* Headers */,
+				311280A29BFC91E2FA6BEEFE6EE6C870 /* Sources */,
+				1EACA69D7572C1654F4F995F1DF1F39F /* Frameworks */,
+				7261039A22DA5CB1EB9912E503E01C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E55DAC954D6D35F8D878F623A5ED7E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Barta-BartaUITests";
+			productName = "Pods-Barta-BartaUITests";
+			productReference = 6A151BA4BE8C4204DF1A7D84555B9551 /* Pods_Barta_BartaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F5DB4FAACF4C14F4BC0EF30019B8E16 /* Pods-Barta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12958C8CA8B54646D39978F6A50CBDB /* Build configuration list for PBXNativeTarget "Pods-Barta" */;
+			buildPhases = (
+				79EE041FCAF330C631E5B673FA3096DD /* Headers */,
+				74B296A69C3AC80F70A9E706E75C78DD /* Sources */,
+				242750D70A3790E72FE39E3F587F1932 /* Frameworks */,
+				E8C7071E03F8ADBE3F742EA3857CDAA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FE9EF269ECFC22D0C4293268EC88F27 /* PBXTargetDependency */,
+			);
+			name = "Pods-Barta";
+			productName = "Pods-Barta";
+			productReference = 222515276ACE324C564E5AB06A6EE01B /* Pods_Barta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF9228424A074D42F13FABA26E972B57 /* CarbonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C1C44E62D19630DCAF2E47CD796ADB0 /* Build configuration list for PBXNativeTarget "CarbonKit" */;
+			buildPhases = (
+				CA4EEC66B4EF266DD7F7BA0D78D47BB8 /* Headers */,
+				1A11556C80FC8DF779888B1E32ED9A12 /* Sources */,
+				37E9F682E6A4C0E050104CC9A9A4FB49 /* Frameworks */,
+				7FD281292E4E4F95C99C9197BF44A009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonKit;
+			productName = CarbonKit;
+			productReference = 857D0B90490FD8083F79B97597566B28 /* CarbonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE6FDCDA351B2DB0377E64D7B1A095A5 /* Pods-BartaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29009F7BE377A6C4AA95AE272B24CB10 /* Build configuration list for PBXNativeTarget "Pods-BartaTests" */;
+			buildPhases = (
+				C433E4C0BCD2DE7DBE1E5AAF18F96D6F /* Headers */,
+				DD5EF923DC380D1D21D5E03790B527C9 /* Sources */,
+				8B47EB7413E0E2D99EE1ECF5D6B95B43 /* Frameworks */,
+				BC94B8956596C1158FEFB7C5A7AE6C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E931F3958F1850BF55B6F4F8FB53ED /* PBXTargetDependency */,
+			);
+			name = "Pods-BartaTests";
+			productName = "Pods-BartaTests";
+			productReference = 1731CCF33B29295A9E431F66962574E6 /* Pods_BartaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A660B0A74893D80AC3665B724CF5D601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF9228424A074D42F13FABA26E972B57 /* CarbonKit */,
+				1F5DB4FAACF4C14F4BC0EF30019B8E16 /* Pods-Barta */,
+				105F2C1C80A9D93EAFD87FAEAF1852AB /* Pods-Barta-BartaUITests */,
+				BE6FDCDA351B2DB0377E64D7B1A095A5 /* Pods-BartaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7261039A22DA5CB1EB9912E503E01C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD281292E4E4F95C99C9197BF44A009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC94B8956596C1158FEFB7C5A7AE6C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C7071E03F8ADBE3F742EA3857CDAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A11556C80FC8DF779888B1E32ED9A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F94BD9FF9301B56E2BF9675F0FA3BA /* CarbonKit-dummy.m in Sources */,
+				3BADD89280FA5C9F2BC1BE3E680CA2AD /* CarbonSwipeRefresh.m in Sources */,
+				E69D5596F58F7CE052C09272F51AF3CD /* CarbonTabSwipeNavigation.m in Sources */,
+				51A0998B006EC835DBBF7E93AF2A3201 /* CarbonTabSwipeScrollView.m in Sources */,
+				E73672A78A2A1DC2B3DC37F8A021FDE7 /* CarbonTabSwipeSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311280A29BFC91E2FA6BEEFE6EE6C870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D7ABC4BCE4F8A9C6598D4F04A8FA31 /* Pods-Barta-BartaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B296A69C3AC80F70A9E706E75C78DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A83F5C89513CECD00D44AC38E2640 /* Pods-Barta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5EF923DC380D1D21D5E03790B527C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B322C0E39488E078BC71DDA883D512B /* Pods-BartaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E931F3958F1850BF55B6F4F8FB53ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Barta";
+			target = 1F5DB4FAACF4C14F4BC0EF30019B8E16 /* Pods-Barta */;
+			targetProxy = 3F959B840998D05631730616E4330E97 /* PBXContainerItemProxy */;
+		};
+		3E55DAC954D6D35F8D878F623A5ED7E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarbonKit;
+			target = AF9228424A074D42F13FABA26E972B57 /* CarbonKit */;
+			targetProxy = 8CFA39EA95C7B3C5F7EED8DBBFF46F07 /* PBXContainerItemProxy */;
+		};
+		6FE9EF269ECFC22D0C4293268EC88F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarbonKit;
+			target = AF9228424A074D42F13FABA26E972B57 /* CarbonKit */;
+			targetProxy = AECFE24AAB32BB05640302C0874FBBE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D095C280C0F6008C0850A6F4BF89782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499394CF3675B828356552080AFE3F79 /* Pods-BartaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BartaTests/Pods-BartaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BartaTests/Pods-BartaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F8E94B163FC6680EC61AD5A993682CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAC3F12535D57930F7E7E1F6C0D287D /* Pods-Barta-BartaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3499B4BF4A4CE9FE14A430BCACD892F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB04EF298E418A4C39CEFAF9A846A89 /* Pods-BartaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BartaTests/Pods-BartaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BartaTests/Pods-BartaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AC02F2705D29CAD0ECD3CD095D0B21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1ACFBC3719F1416A12F00A6A03E80BC /* Pods-Barta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Barta/Pods-Barta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barta/Pods-Barta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F1844A5140252278783C716643139C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13F8B682638504257F4BB9A4D21161B /* CarbonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarbonKit/CarbonKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarbonKit/CarbonKit.modulemap";
+				PRODUCT_MODULE_NAME = CarbonKit;
+				PRODUCT_NAME = CarbonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BE756FEACD26DEE01559F3548F9D395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E45FBCCBD414D5DCE99ACFB8D4B63EB /* Pods-Barta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Barta/Pods-Barta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barta/Pods-Barta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		964843307B82A7EB83D110770D1B379E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13F8B682638504257F4BB9A4D21161B /* CarbonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarbonKit/CarbonKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarbonKit/CarbonKit.modulemap";
+				PRODUCT_MODULE_NAME = CarbonKit;
+				PRODUCT_NAME = CarbonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBB0E9F53A7538230BC0D14EE85543FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AEDB18A6C9CFF731C9FF65E424811D /* Pods-Barta-BartaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29009F7BE377A6C4AA95AE272B24CB10 /* Build configuration list for PBXNativeTarget "Pods-BartaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D095C280C0F6008C0850A6F4BF89782 /* Debug */,
+				3499B4BF4A4CE9FE14A430BCACD892F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C1C44E62D19630DCAF2E47CD796ADB0 /* Build configuration list for PBXNativeTarget "CarbonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964843307B82A7EB83D110770D1B379E /* Debug */,
+				5F1844A5140252278783C716643139C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E01925509EA1DAD2107B8C867374E0 /* Build configuration list for PBXNativeTarget "Pods-Barta-BartaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8E94B163FC6680EC61AD5A993682CC /* Debug */,
+				DBB0E9F53A7538230BC0D14EE85543FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12958C8CA8B54646D39978F6A50CBDB /* Build configuration list for PBXNativeTarget "Pods-Barta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC02F2705D29CAD0ECD3CD095D0B21D /* Debug */,
+				7BE756FEACD26DEE01559F3548F9D395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
