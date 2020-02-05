@@ -17,6 +17,13 @@
 		1841310A23E9772300DC3A34 /* BartaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841310923E9772300DC3A34 /* BartaTests.swift */; };
 		1841311523E9772300DC3A34 /* BartaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841311423E9772300DC3A34 /* BartaUITests.swift */; };
 		1841312323E97FB300DC3A34 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841312223E97FB300DC3A34 /* SearchVC.swift */; };
+		188B040123EA771F003DEF10 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B040023EA771F003DEF10 /* SearchCell.swift */; };
+		188B040323EA9EA2003DEF10 /* SearchItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B040223EA9EA2003DEF10 /* SearchItemVC.swift */; };
+		188B044123EAC180003DEF10 /* SportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044023EAC180003DEF10 /* SportsVC.swift */; };
+		188B044323EAC1A1003DEF10 /* TravelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044223EAC1A1003DEF10 /* TravelVC.swift */; };
+		188B044523EAC1C2003DEF10 /* PoliticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044423EAC1C2003DEF10 /* PoliticsVC.swift */; };
+		188B044723EAC1E0003DEF10 /* EntertainmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044623EAC1E0003DEF10 /* EntertainmentVC.swift */; };
+		188B044923EAC1FC003DEF10 /* TechVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044823EAC1FC003DEF10 /* TechVC.swift */; };
 		9BC4B3B1520C8E9C00ED7A29 /* Pods_BartaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741E4FADAE186A02A0803792 /* Pods_BartaTests.framework */; };
 		E24F03826895E842AA332BE2 /* Pods_Barta_BartaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +62,13 @@
 		1841311423E9772300DC3A34 /* BartaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartaUITests.swift; sourceTree = "<group>"; };
 		1841311623E9772300DC3A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1841312223E97FB300DC3A34 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		188B040023EA771F003DEF10 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		188B040223EA9EA2003DEF10 /* SearchItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemVC.swift; sourceTree = "<group>"; };
+		188B044023EAC180003DEF10 /* SportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsVC.swift; sourceTree = "<group>"; };
+		188B044223EAC1A1003DEF10 /* TravelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelVC.swift; sourceTree = "<group>"; };
+		188B044423EAC1C2003DEF10 /* PoliticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticsVC.swift; sourceTree = "<group>"; };
+		188B044623EAC1E0003DEF10 /* EntertainmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentVC.swift; sourceTree = "<group>"; };
+		188B044823EAC1FC003DEF10 /* TechVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechVC.swift; sourceTree = "<group>"; };
 		2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barta_BartaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABA04C80079E54EC3480B46 /* Pods-Barta-BartaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta-BartaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5EE8DB61B2217183831F5F27 /* Pods-Barta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta.debug.xcconfig"; path = "Target Support Files/Pods-Barta/Pods-Barta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +140,13 @@
 				184130FD23E9772200DC3A34 /* LaunchScreen.storyboard */,
 				1841310023E9772200DC3A34 /* Info.plist */,
 				1841312223E97FB300DC3A34 /* SearchVC.swift */,
+				188B040023EA771F003DEF10 /* SearchCell.swift */,
+				188B040223EA9EA2003DEF10 /* SearchItemVC.swift */,
+				188B044023EAC180003DEF10 /* SportsVC.swift */,
+				188B044223EAC1A1003DEF10 /* TravelVC.swift */,
+				188B044423EAC1C2003DEF10 /* PoliticsVC.swift */,
+				188B044623EAC1E0003DEF10 /* EntertainmentVC.swift */,
+				188B044823EAC1FC003DEF10 /* TechVC.swift */,
 			);
 			path = Barta;
 			sourceTree = "<group>";
@@ -410,10 +431,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188B044323EAC1A1003DEF10 /* TravelVC.swift in Sources */,
+				188B044923EAC1FC003DEF10 /* TechVC.swift in Sources */,
+				188B044123EAC180003DEF10 /* SportsVC.swift in Sources */,
 				1841312323E97FB300DC3A34 /* SearchVC.swift in Sources */,
+				188B040323EA9EA2003DEF10 /* SearchItemVC.swift in Sources */,
+				188B040123EA771F003DEF10 /* SearchCell.swift in Sources */,
 				184130F723E9772200DC3A34 /* ViewController.swift in Sources */,
 				184130F323E9772200DC3A34 /* AppDelegate.swift in Sources */,
+				188B044723EAC1E0003DEF10 /* EntertainmentVC.swift in Sources */,
 				184130F523E9772200DC3A34 /* SceneDelegate.swift in Sources */,
+				188B044523EAC1C2003DEF10 /* PoliticsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

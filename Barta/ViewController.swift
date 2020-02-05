@@ -11,8 +11,6 @@ import CarbonKit
 
 class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,9 +38,32 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
     }
     
     func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {
-        let vc = storyboard?.instantiateViewController(identifier: "SearchVC") as! SearchVC
+        if index == 0{
+            let vc = storyboard?.instantiateViewController(identifier: "SearchVC") as! SearchVC
+            return vc
+        } else if index == 1{
+            let vc = storyboard?.instantiateViewController(identifier: "sports") as! SportsVC
+            return vc
+        }
+        else if index == 2{
+            let vc = storyboard?.instantiateViewController(identifier: "travel") as! TravelVC
+            return vc
+        }
+        else if index == 3{
+            let vc = storyboard?.instantiateViewController(identifier: "politics") as! PoliticsVC
+            return vc
+        }else if index == 4{
+            let vc = storyboard?.instantiateViewController(identifier: "enterainment") as! EntertainmentVC
+            return vc
+        }
+        let vc = storyboard?.instantiateViewController(identifier: "tech") as! TechVC
         return vc
     }
 
+    @IBAction func tapTOgoSearch(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "SearchItemVC")
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
 }
 
