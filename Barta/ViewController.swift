@@ -65,5 +65,11 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
         let controller = storyboard.instantiateViewController(withIdentifier: "SearchItemVC")
         self.navigationController?.pushViewController(controller, animated: true)
     }
+    
+    @IBAction func tapToGoNotification(_ sender: Any) {
+        let storyboard = UIStoryboard(name:"Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(identifier: "Notification")
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
 }
 

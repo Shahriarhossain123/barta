@@ -25,6 +25,7 @@ class SearchItemVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             searchEdit()
               
             // Do any additional setup after loading the view.
+            self.navigationItem.title = "Search News"
         }
 
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

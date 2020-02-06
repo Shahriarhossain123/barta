@@ -24,6 +24,7 @@
 		188B044523EAC1C2003DEF10 /* PoliticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044423EAC1C2003DEF10 /* PoliticsVC.swift */; };
 		188B044723EAC1E0003DEF10 /* EntertainmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044623EAC1E0003DEF10 /* EntertainmentVC.swift */; };
 		188B044923EAC1FC003DEF10 /* TechVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B044823EAC1FC003DEF10 /* TechVC.swift */; };
+		189869AB23EBE58F00DB872D /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189869AA23EBE58F00DB872D /* NotificationVC.swift */; };
 		9BC4B3B1520C8E9C00ED7A29 /* Pods_BartaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741E4FADAE186A02A0803792 /* Pods_BartaTests.framework */; };
 		E24F03826895E842AA332BE2 /* Pods_Barta_BartaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,8 @@
 		188B044423EAC1C2003DEF10 /* PoliticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticsVC.swift; sourceTree = "<group>"; };
 		188B044623EAC1E0003DEF10 /* EntertainmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentVC.swift; sourceTree = "<group>"; };
 		188B044823EAC1FC003DEF10 /* TechVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechVC.swift; sourceTree = "<group>"; };
+		189869AA23EBE58F00DB872D /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		189869AC23EBEA8E00DB872D /* Barta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Barta.entitlements; sourceTree = "<group>"; };
 		2AFB1930AC59C52F00187A6C /* Pods_Barta_BartaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barta_BartaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABA04C80079E54EC3480B46 /* Pods-Barta-BartaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta-BartaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Barta-BartaUITests/Pods-Barta-BartaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5EE8DB61B2217183831F5F27 /* Pods-Barta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barta.debug.xcconfig"; path = "Target Support Files/Pods-Barta/Pods-Barta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,7 @@
 		184130F123E9772200DC3A34 /* Barta */ = {
 			isa = PBXGroup;
 			children = (
+				189869AC23EBEA8E00DB872D /* Barta.entitlements */,
 				184130F223E9772200DC3A34 /* AppDelegate.swift */,
 				184130F423E9772200DC3A34 /* SceneDelegate.swift */,
 				184130F623E9772200DC3A34 /* ViewController.swift */,
@@ -147,6 +151,7 @@
 				188B044423EAC1C2003DEF10 /* PoliticsVC.swift */,
 				188B044623EAC1E0003DEF10 /* EntertainmentVC.swift */,
 				188B044823EAC1FC003DEF10 /* TechVC.swift */,
+				189869AA23EBE58F00DB872D /* NotificationVC.swift */,
 			);
 			path = Barta;
 			sourceTree = "<group>";
@@ -438,6 +443,7 @@
 				188B040323EA9EA2003DEF10 /* SearchItemVC.swift in Sources */,
 				188B040123EA771F003DEF10 /* SearchCell.swift in Sources */,
 				184130F723E9772200DC3A34 /* ViewController.swift in Sources */,
+				189869AB23EBE58F00DB872D /* NotificationVC.swift in Sources */,
 				184130F323E9772200DC3A34 /* AppDelegate.swift in Sources */,
 				188B044723EAC1E0003DEF10 /* EntertainmentVC.swift in Sources */,
 				184130F523E9772200DC3A34 /* SceneDelegate.swift in Sources */,
@@ -615,6 +621,7 @@
 			baseConfigurationReference = 5EE8DB61B2217183831F5F27 /* Pods-Barta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Barta/Barta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Barta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -633,6 +640,7 @@
 			baseConfigurationReference = E0B9012FD1445CC74B5FF503 /* Pods-Barta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Barta/Barta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Barta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

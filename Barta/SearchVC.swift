@@ -18,6 +18,7 @@ class SearchVC: UIViewController {
         super.viewDidLoad()
         searchtabel.rowHeight = 405
         // Do any additional setup after loading the view.
+        
     }
 }
 
