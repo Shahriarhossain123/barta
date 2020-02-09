@@ -32,6 +32,50 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="100.44642857142857"/>
         </scene>
+        <!--Details View Controller-->
+        <scene sceneID="rGb-iQ-aeB">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewController" id="QxD-OC-rm4" customClass="DetailsViewController" customModule="Barta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="27h-Rr-e0K">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aky-tJ-uZ9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="325"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="325" id="sHb-CZ-qzJ"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="nt7-Jj-BhG">
+                                <rect key="frame" x="16" y="333" width="382" height="563"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aky-tJ-uZ9" firstAttribute="top" secondItem="27h-Rr-e0K" secondAttribute="top" id="AOo-bc-KX7"/>
+                            <constraint firstItem="aky-tJ-uZ9" firstAttribute="leading" secondItem="7Yq-so-xtz" secondAttribute="leading" id="DET-eh-dLQ"/>
+                            <constraint firstAttribute="bottom" secondItem="nt7-Jj-BhG" secondAttribute="bottom" id="T09-e1-CV0"/>
+                            <constraint firstItem="nt7-Jj-BhG" firstAttribute="top" secondItem="aky-tJ-uZ9" secondAttribute="bottom" constant="8" id="Vso-ej-iOf"/>
+                            <constraint firstItem="7Yq-so-xtz" firstAttribute="trailing" secondItem="nt7-Jj-BhG" secondAttribute="trailing" constant="16" id="l5E-Yb-H9J"/>
+                            <constraint firstItem="nt7-Jj-BhG" firstAttribute="leading" secondItem="7Yq-so-xtz" secondAttribute="leading" constant="16" id="snM-If-qcp"/>
+                            <constraint firstItem="aky-tJ-uZ9" firstAttribute="trailing" secondItem="7Yq-so-xtz" secondAttribute="trailing" id="v6q-eU-Ldx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7Yq-so-xtz"/>
+                    </view>
+                    <connections>
+                        <outlet property="newsImageView" destination="aky-tJ-uZ9" id="H42-wz-ISb"/>
+                        <outlet property="newsTextField" destination="nt7-Jj-BhG" id="L5u-GP-acA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h29-qb-uef" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="814"/>
+        </scene>
         <!--SearchVC-->
         <scene sceneID="c5s-Mo-VKx">
             <objects>
@@ -57,7 +101,7 @@
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a-1" translatesAutoresizingMaskIntoConstraints="NO" id="wmu-Zj-pkc">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                         </imageView>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="32d-4K-rxq">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32d-4K-rxq">
                                                             <rect key="frame" x="8" y="247" width="358" height="128"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>
@@ -119,21 +163,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cza-fz-Ab9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1860.8695652173915" y="99.776785714285708"/>
-        </scene>
-        <!--NotificationVC-->
-        <scene sceneID="A67-bO-QdA">
-            <objects>
-                <viewController storyboardIdentifier="Notification" id="wYG-ja-2tF" customClass="NotificationVC" customModule="Barta" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Dg7-gi-h1f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="tXg-cI-bZ2"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L0N-dH-80k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1042" y="-581"/>
         </scene>
         <!--Search ItemVC-->
         <scene sceneID="OSg-ki-6Sd">
@@ -239,7 +268,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nnn-wI-hRU">
                                                     <rect key="frame" x="20" y="12" width="374" height="383"/>
                                                     <subviews>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VFz-Mr-FfM">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFz-Mr-FfM">
                                                             <rect key="frame" x="8" y="247" width="358" height="128"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>
@@ -302,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPL-wd-ZyB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2705.7971014492755" y="99.776785714285708"/>
+            <point key="canvasLocation" x="2655" y="100"/>
         </scene>
         <!--TravelVC-->
         <scene sceneID="t8x-UI-gFv">
@@ -326,7 +355,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYT-K0-JBl">
                                                     <rect key="frame" x="16" y="12" width="374" height="383"/>
                                                     <subviews>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0xT-8f-RgX">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xT-8f-RgX">
                                                             <rect key="frame" x="8" y="247" width="358" height="128"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>
@@ -373,8 +402,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="v2G-3N-apN" id="TSg-JF-Q7g"/>
-                                    <outlet property="delegate" destination="v2G-3N-apN" id="xpx-N5-s0f"/>
+                                    <outlet property="dataSource" destination="v2G-3N-apN" id="pjr-6O-uSx"/>
+                                    <outlet property="delegate" destination="v2G-3N-apN" id="IPk-iL-pN0"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -417,7 +446,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U1F-E9-y48">
                                                     <rect key="frame" x="20" y="12" width="374" height="383"/>
                                                     <subviews>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qLa-XC-ILN">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLa-XC-ILN">
                                                             <rect key="frame" x="8" y="247" width="358" height="128"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>
@@ -486,6 +515,21 @@
             </objects>
             <point key="canvasLocation" x="4106" y="100"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="3QV-9C-KiY">
+            <objects>
+                <viewController id="rwf-GG-Wn0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gba-E0-u4n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-Fp-ely"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yYy-xY-e3H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3909" y="-581"/>
+        </scene>
         <!--TechVC-->
         <scene sceneID="ODP-gh-9HW">
             <objects>
@@ -508,7 +552,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRT-jx-BqO">
                                                     <rect key="frame" x="20" y="12" width="374" height="383"/>
                                                     <subviews>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-rq-cnD">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-rq-cnD">
                                                             <rect key="frame" x="8" y="247" width="358" height="128"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>
@@ -599,7 +643,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNd-yT-RiG">
                                                     <rect key="frame" x="20" y="12" width="374" height="383"/>
                                                     <subviews>
-                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-SH-xsc">
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdP-SH-xsc">
                                                             <rect key="frame" x="8" y="247" width="358" height="128"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <constraints>

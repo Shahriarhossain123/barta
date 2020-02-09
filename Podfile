@@ -16,5 +16,7 @@ target 'Barta' do
     # Pods for testing
   end
 pod 'CarbonKit'
+pod 'Alamofire'
+pod 'AlamofireImage'
 
 end

@@ -1,16 +1,25 @@
 PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
   - CarbonKit (2.3.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
   - CarbonKit
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
     - CarbonKit
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   CarbonKit: b60e24dbdb47179990d5e074efa87ab819c8de98
 
-PODFILE CHECKSUM: 6be703368e3248f6d11a09ad9cf8b994b09fbad0
+PODFILE CHECKSUM: 4ff100a68a11321642da6d9be67dbd1a620c47cc
 
 COCOAPODS: 1.8.4

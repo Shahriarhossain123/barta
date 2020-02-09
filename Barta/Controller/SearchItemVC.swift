@@ -23,6 +23,9 @@ class SearchItemVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             
             searchBar.delegate = self
             searchEdit()
+            
+            self.navigationController?.navigationBar.tintColor = UIColor.white
+            self.navigationController?.navigationBar.isTranslucent = false
               
             // Do any additional setup after loading the view.
             self.navigationItem.title = "Search News"

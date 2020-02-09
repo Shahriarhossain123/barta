@@ -7,13 +7,14 @@
 //
 
 import UIKit
-import UserNotifications
+//import UserNotifications
 
 class NotificationVC: UIViewController, UNUserNotificationCenterDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.isTranslucent = false
         self.navigationItem.title = "Notification"
         self.userNotificationCenter.delegate = self
         self.requestNotificationAuthorization()
