@@ -40,7 +40,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aky-tJ-uZ9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="aky-tJ-uZ9">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="325"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="325" id="sHb-CZ-qzJ"/>
@@ -98,7 +98,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mbK-nz-H37">
                                                     <rect key="frame" x="20" y="11" width="374" height="383"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a-1" translatesAutoresizingMaskIntoConstraints="NO" id="wmu-Zj-pkc">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="wmu-Zj-pkc">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                         </imageView>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32d-4K-rxq">
@@ -280,7 +280,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="G6v-dN-pSi">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="G6v-dN-pSi">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                         </imageView>
                                                     </subviews>
@@ -366,7 +366,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b-1" translatesAutoresizingMaskIntoConstraints="NO" id="rLB-Fd-fgF">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="rLB-Fd-fgF">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="374" id="1x1-9v-dra"/>
@@ -458,7 +458,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="mOo-O3-a63">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="mOo-O3-a63">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="239" id="lVH-1O-LaS"/>
@@ -515,20 +515,60 @@
             </objects>
             <point key="canvasLocation" x="4106" y="100"/>
         </scene>
-        <!--View Controller-->
+        <!--NotificationVC-->
         <scene sceneID="3QV-9C-KiY">
             <objects>
-                <viewController id="rwf-GG-Wn0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Notification" id="rwf-GG-Wn0" customClass="NotificationVC" customModule="Barta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gba-E0-u4n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SV2-It-JzH">
+                                <rect key="frame" x="82" y="286" width="250" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                <state key="normal" title="PROTHOM ALO">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nT-dV-A1z">
+                                <rect key="frame" x="82" y="380" width="250" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                <state key="normal" title="THE DAILY STAR">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qnc-68-NPj">
+                                <rect key="frame" x="82" y="560" width="250" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                <state key="normal" title="BBC">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhO-Vi-2Gs">
+                                <rect key="frame" x="82" y="472" width="250" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                <state key="normal" title="BDNEWS24">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-Fp-ely"/>
                     </view>
+                    <connections>
+                        <outlet property="bbcbtn" destination="Qnc-68-NPj" id="MDf-Ll-s73"/>
+                        <outlet property="bdnewsbtn" destination="UhO-Vi-2Gs" id="8Io-lb-Dfl"/>
+                        <outlet property="dstarbtn" destination="5nT-dV-A1z" id="npe-mK-CNY"/>
+                        <outlet property="palobtn" destination="SV2-It-JzH" id="d9i-M4-3gj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yYy-xY-e3H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3909" y="-581"/>
+            <point key="canvasLocation" x="2653.6231884057975" y="-581.25"/>
         </scene>
         <!--TechVC-->
         <scene sceneID="ODP-gh-9HW">
@@ -564,7 +604,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="QIY-dG-ChT">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="QIY-dG-ChT">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="374" id="EXU-r8-Yyj"/>
@@ -655,7 +695,7 @@
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="lxs-oL-Hqw">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noimage" translatesAutoresizingMaskIntoConstraints="NO" id="lxs-oL-Hqw">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="239"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="374" id="odW-Zj-vjk"/>
@@ -714,9 +754,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="a-1" width="750" height="422"/>
-        <image name="b" width="664" height="441"/>
-        <image name="b-1" width="1920" height="900"/>
         <image name="bell" catalog="system" width="64" height="62"/>
+        <image name="noimage" width="512" height="512"/>
     </resources>
 </document>
