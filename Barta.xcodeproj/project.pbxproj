@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1728E270DA8084480D305C47 /* Pods_Barta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8BD1F197E028A55100BE18 /* Pods_Barta.framework */; };
+		183C069923F133B2009826A4 /* ShowPaperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C069823F133B2009826A4 /* ShowPaperVC.swift */; };
 		184130F323E9772200DC3A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184130F223E9772200DC3A34 /* AppDelegate.swift */; };
 		184130F523E9772200DC3A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184130F423E9772200DC3A34 /* SceneDelegate.swift */; };
 		184130F723E9772200DC3A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184130F623E9772200DC3A34 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		007CAA10E0947118870C8A4C /* Pods-BartaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartaTests.release.xcconfig"; path = "Target Support Files/Pods-BartaTests/Pods-BartaTests.release.xcconfig"; sourceTree = "<group>"; };
+		183C069823F133B2009826A4 /* ShowPaperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPaperVC.swift; sourceTree = "<group>"; };
 		184130EF23E9772200DC3A34 /* Barta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184130F223E9772200DC3A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184130F423E9772200DC3A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				188B044823EAC1FC003DEF10 /* TechVC.swift */,
 				189869AA23EBE58F00DB872D /* NotificationVC.swift */,
 				184EE04A23EFB87100CAC425 /* DetailsViewController.swift */,
+				183C069823F133B2009826A4 /* ShowPaperVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				1841312323E97FB300DC3A34 /* SearchVC.swift in Sources */,
 				188B040323EA9EA2003DEF10 /* SearchItemVC.swift in Sources */,
 				188B040123EA771F003DEF10 /* SearchCell.swift in Sources */,
+				183C069923F133B2009826A4 /* ShowPaperVC.swift in Sources */,
 				184130F723E9772200DC3A34 /* ViewController.swift in Sources */,
 				189869AB23EBE58F00DB872D /* NotificationVC.swift in Sources */,
 				184130F323E9772200DC3A34 /* AppDelegate.swift in Sources */,
